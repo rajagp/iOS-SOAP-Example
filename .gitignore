@@ -5,4 +5,21 @@
 # http://guides.cocoapods.org/using/using-cocoapods.html#should-i-ignore-the-pods-directory-in-source-control?
 #
 # Pods/
+ .DS_Store
+ .svn
+ *.swp
+ *~.nib
+ 
+ build/
+ product/
+ .adhoc/
+ 
+ *.pbxuser
+ *.perspective
+ *.perspectivev3
+  
+ *.mode1v3
+ *.mode2v3
+  
+ xcuserdata/
 
